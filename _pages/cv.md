@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.S. in Jekyll, GitHub University, 2014
@@ -41,7 +41,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+简介
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
