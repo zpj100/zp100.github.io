@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "高青数智技术服务中心"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "数智技术研发"
+description              : &description "技术服务"
+url                      : www.gqszxxfw.top
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "www.gqszxxfw.top"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,21 +22,21 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "高青数智技术服务中心"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "高青数智技术服务中心高青数智技术服务中心r"
+  location         : "中国"
+  employer         : "淄博市"
+  uri              : www.gqszxxfw.top
+  email            : "bestauto@qq.com" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  arxiv            :数智信息服务
+  googlescholar    : "www.gqszxxfw.top"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "www.gqszxxfw.top"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "www.gqszxxfw.top"
   researchgate     : # URL
   scopus           : # URL
 
@@ -50,13 +50,13 @@ author:
 
   # Social media
   bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
+  facebook         : # 高青数智技术服务中心
+  flickr           : # 高青数智技术服务中心
+  foursquare       : # 高青数智技术服务中心
+  goodreads        : # 高青数智技术服务中心
+  google_plus      : # 高青数智技术服务中心
+  keybase          : # 高青数智技术服务中心
+  instagram        : # 高青数智技术服务中心
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
@@ -77,11 +77,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: '数智技术'
   manuscripts:
-    title: 'Journal Articles'    
+    title: '技术服务'    
   conferences:
-    title: 'Conference Papers'
+    title: '技术研发'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
