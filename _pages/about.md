@@ -1,10 +1,10 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "目录"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-高青数智信息服务中心
+高青数智技术服务中心
