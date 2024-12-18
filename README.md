@@ -1,77 +1,69 @@
 # Academic Pages
 **Academic Pages is a Github Pages template for academic websites.**
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
 
-# Getting Started
+**公司技术介绍**
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+公司致力于通过领先的技术创新，为客户提供高效、智能、可持续的解决方案。我们深知技术是推动企业发展和行业变革的核心动力，因此始终秉持技术驱动的发展理念，推动产品、服务和业务的不断升级与优化。
 
-See more info at https://academicpages.github.io/
+以下是公司主要技术领域的概述：
 
-## Running locally
+### 1. **人工智能与机器学习**
+公司在人工智能（AI）和机器学习（ML）领域具有强大的技术积累，致力于为各行业提供智能化的解决方案。我们的AI技术涵盖自然语言处理（NLP）、计算机视觉、推荐系统、预测分析等多个方向，能够帮助客户从海量数据中提取有价值的洞察，提升运营效率和决策精度。
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+- **智能客服与自动化**：通过AI驱动的智能客服系统，能够为客户提供24/7的实时服务，并自动处理常见问题，极大提升了客户满意度和企业运营效率。
+- **数据挖掘与预测分析**：利用深度学习和数据分析技术，帮助企业从历史数据中发现趋势，预测未来的市场需求和风险，支持战略决策。
+  
+### 2. **大数据与云计算**
+公司在大数据处理和云计算平台建设方面也拥有领先的技术优势。通过灵活高效的数据架构和强大的计算能力，我们能够为客户提供实时的数据处理与分析服务。
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+- **云基础设施**：我们为客户提供可靠的云计算服务，支持各种规模的企业在云环境中高效运行应用程序、存储数据以及进行业务处理。
+- **大数据平台**：通过分布式存储和计算框架，我们能够处理超大规模数据集，帮助客户在各种业务场景中获取深层次的数据洞察。
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+### 3. **物联网 (IoT)**
+物联网技术是推动智能设备、自动化生产和智慧城市建设的关键。公司通过物联网技术，打通了多个行业应用的“数据孤岛”，实现设备、系统和平台的智能互联互通。
 
-## Using Docker
+- **智能家居**：通过智能传感器、控制系统和云平台的集成，我们为客户提供全方位的家居自动化解决方案，让生活更加便捷、舒适和安全。
+- **工业物联网 (IIoT)**：我们为制造业提供智能工厂解决方案，利用实时监控、设备预测性维护和自动化控制，优化生产流程，提高生产效率。
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+### 4. **区块链技术**
+公司在区块链技术的应用上有着丰富的经验。我们专注于去中心化应用、数字货币以及智能合约的开发和实施，推动各行各业的数字化转型。
 
-Start by build the container:
+- **智能合约**：通过自动化执行协议，减少人为干预，确保交易的透明度和安全性。
+- **供应链管理**：利用区块链的不可篡改性和透明性，帮助企业实现供应链的实时监控与追踪，提高供应链的效率和可靠性。
 
-```bash
-docker build -t jekyll-site .
-```
+### 5. **网络安全**
+随着信息技术的快速发展，网络安全问题日益成为企业面临的重要挑战。公司致力于为客户提供全面的网络安全解决方案，保护企业的数据资产和用户隐私。
 
-Next, run the container:
-```bash
-docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
-```
+- **数据加密与防护**：采用先进的加密技术和防火墙系统，确保数据在传输和存储过程中的安全性。
+- **威胁检测与响应**：利用AI与大数据分析技术，实时监控网络流量，发现潜在的安全威胁，并快速响应和处理。
 
-# Maintenance
+### 6. **软件开发与定制**
+公司提供从需求分析到产品上线的全流程软件开发服务，帮助客户实现数字化转型。我们的技术团队精通多种开发语言和框架，能够为各行各业提供定制化的软件解决方案。
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+- **Web 和移动端应用开发**：提供跨平台的Web和移动端开发服务，帮助企业提升用户体验和服务能力。
+- **企业资源计划（ERP）系统**：为企业提供灵活高效的ERP系统，帮助优化资源配置、提高运营效率。
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+### 7. **增强现实（AR）与虚拟现实（VR）**
+公司在增强现实和虚拟现实领域的研发投入，为客户提供沉浸式的体验和创新的应用场景，特别在教育、医疗、娱乐等行业中展现出广泛的潜力。
 
-## Bugfixes and enhancements
+- **虚拟培训与模拟**：通过虚拟现实技术，提供沉浸式的培训体验，让学员在安全的环境中进行高风险操作训练。
+- **增强现实营销**：利用增强现实技术，提供创新的产品展示和互动营销方式，提升消费者的参与感和购买欲望。
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+### 8. **机器人技术与自动化**
+公司在机器人技术和自动化领域的应用覆盖了多个行业，特别在制造业、物流和医疗领域，已经实现了技术的突破性进展。
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+- **自动化生产线**：通过机器人和自动化设备的引入，我们帮助制造企业提升生产效率、降低人工成本并保证生产质量。
+- **服务机器人**：为酒店、餐饮、医疗等行业提供智能服务机器人，优化客户体验并降低运营成本。
+
+---
+
+**总结**
+
+公司技术的核心优势在于通过多元化的技术手段帮助客户提升运营效率、创造更高的商业价值，并助力客户在行业变革中处于领先地位。我们将继续加大在技术创新方面的投入，保持技术的前沿地位，并通过我们的技术为各行各业带来更多的机遇和解决方案。
 
 ---
 <div align="center">
     
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
 </div>
